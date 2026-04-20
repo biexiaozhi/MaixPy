@@ -6,7 +6,7 @@ title: MaixPy MaixCAM 内存使用说明
 
 MaixPy 基于 Python 语言，而 Python 语言跑在 Linux 系统上，摄像头、图像、模型、应用都需要大量内存，因为内存有限，掌握内存使用和管理方法十分重要。
 
-我们可以通过很多种方式来获取当前的内存使用状态，使用 MaixPy 内置方法活着 Linux 通用方法即可，比如使用 Python:
+我们可以通过很多种方式来获取当前的内存使用状态，使用 MaixPy 内置方法或者 Linux 通用方法即可，比如使用 Python:
 ```python
 from maix import sys
 print(sys.memory_info())
